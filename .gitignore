@@ -1,0 +1,16 @@
+/media/*
+app/config/config.xml
+app/config/db.xml
+*.tar.gz
+*.zip
+*.sql
+*.sql.gz
+*.rar
+*.tar
+*.tgz
+/tmp/*
+var/*
+/robots.txt
+/sitemap.xml
+.idea/
+
