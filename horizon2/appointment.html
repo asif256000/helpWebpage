@@ -1,0 +1,97 @@
+<html>
+<head>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+          
+
+  <title>MediCare</title>
+</head>
+<body>
+<nav>
+<div class="nav-wrapper cyan lighten-3">
+  <a href="dashboard.php" class="brand-logo center"><strong>My AveKare</strong></a>
+</div>
+</nav>
+<br/>
+<h6 class="grey-text text-darken-2 center">Fill the following form to apply for an appointment.</h6>
+<br/>
+<div class="container">
+  <div class="col s8 offset-s4">
+	<div class="container">
+		<h3 class="cyan-text center">Appointment Form</h3>
+		<div class="row">
+			<form class="col s12" method="GET" action = "email.php">
+			<div class="row">
+				<div class="input-field col s12">
+				  <input id="email" name="name" type="text" class="validate">
+				  <label for="docname">Name</label>
+				</div>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input id="email" name="docname" type="text" class="validate">
+				  <label for="docname">Doctor's Name</label>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input id="email" name="hospitalname" type="text" class="validate">
+				  <label for="email">Hospital Name</label>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="input-field col s6">
+				  <input id="password" name="date" type="text" class="validate">
+				  <label for="password">Date</label>
+				</div>
+				<div class="input-field col s6">
+				  <input id="password" name="time" type="text" class="validate">
+				  <label for="password">Preferred time</label>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input id="password" name="disease" type="text" class="validate">
+				  <label for="password">Mention Disease</label>
+				</div>
+			  </div>
+			  <button class="btn waves-effect waves-light cyan lighten-3" type="submit" name="submit">apply
+					<i class="material-icons right">send</i>
+		  	</button>
+			</form>
+		  </div>
+	</div>
+  </div>
+  </div>
+  </div>
+<br/>
+<footer class="page-footer cyan lighten-3">
+	  <div class="container">
+		<div class="center">
+			<div class="row">
+				<h6 class="white-text">Follow us:</h6>
+				<a href="#!"><img height="60px" width="60px" src="footer_icon\google_plus.png" /></a>
+				<a href="https://www.facebook.com/www.avekare.co.in/?fref=ts"><img height="60px" width="60px" src="footer_icon\facebook.png" /></a>
+				<a href=""><img height="60px" width="60px" src="footer_icon\twitter.png" /></a>
+				<a href="https://avekarecoin.wordpress.com/"><img height="60px" width="60px" src="footer_icon\wordpress.png" /></a>
+			</div>
+		</div>	
+	  </div>
+	  <div class="footer-copyright cyan lighten-2">
+		<div class="container">
+		ÃÂÃÂ©2017 MediCare+, All rights reserved.
+		</div>
+	  </div>
+   </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+</body>
+</html>
